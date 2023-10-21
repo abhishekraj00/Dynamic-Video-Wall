@@ -1,0 +1,30 @@
+.grid-size-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: 20px;
+}
+
+.grid-size-input {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  color: black;
+  font-size: 16px;
+}
+
+.create-button {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(47, 47, 197);
+  border-radius: 5px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}

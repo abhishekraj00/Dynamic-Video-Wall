@@ -1,0 +1,7 @@
+.video-section {
+  width: 70%;
+  height: 80vh;
+  border: 1px solid black;
+
+  display: grid;
+}
