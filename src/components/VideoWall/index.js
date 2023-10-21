@@ -19,9 +19,18 @@ const VideoWall = ({ grid }) => {
         gridTemplateRows: dynamicGridRow,
       }}
     >
-      {cellKeys.map((key) => (
-        <VideoCell key={key} />
-      ))}
+      {cellKeys.length <= 0 ? (
+        <div style={{ position: "absolute", top: "50%", left: "50%" }}>
+          Please Select Row and Columns To get Video Display and value can't be
+          zero
+        </div>
+      ) : (
+        <>
+          {cellKeys.map((key) => (
+            <VideoCell key={key} />
+          ))}
+        </>
+      )}
     </div>
   );
 };

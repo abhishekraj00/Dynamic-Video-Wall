@@ -4,8 +4,8 @@ import "./App.css";
 
 const App = () => {
   const [grid, setGrid] = useState({
-    row: 2,
-    col: 4,
+    row: 0,
+    col: 0,
   });
   return (
     <div>

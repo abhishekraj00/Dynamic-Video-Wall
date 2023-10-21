@@ -1,9 +1,9 @@
 import React from "react";
+import "./VideoCell.css";
 
 const VideoCell = () => {
-    
   return (
-    <div style={{ width: "100%", border: "1px solid black" }}>VideoCell</div>
+    <div className="video-cell">VideoCell</div>
   );
 };
 
