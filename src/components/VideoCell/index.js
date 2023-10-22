@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import VideoJS from "../VideoPlayer";
 import videojs from "video.js";
+import './VideoCell.css';
 
 const VideoCell = () => {
   const playerRef = useRef(null);
