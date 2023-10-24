@@ -1,0 +1,17 @@
+.outer {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  cursor: pointer;
+}
+.outer:hover {
+  height: 50px;
+  width: 50px;
+}
+
+.inner {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
